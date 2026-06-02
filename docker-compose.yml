@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────
+#  CityFix — Docker Compose
+# ─────────────────────────────────────────────────────────────────
+
+services:
+  cityfix-app:
+    build: .
+    container_name: cityfix-app
+
+    volumes:
+      # Monta el código fuente del host
+      - .:/app
+      # CRÍTICO: aísla node_modules dentro del contenedor
+      - /app/node_modules
+
+    # DNS de Google obligatorios para redes institucionales
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+
+    # Lee credenciales desde .env
+    env_file:
+      - .env
+
+    stdin_open: true
+    tty: true

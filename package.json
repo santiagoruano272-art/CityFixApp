@@ -1,0 +1,18 @@
+{
+  "name": "cityfixapp",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "App de reporte de daños de infraestructura urbana con testing E2E real",
+  "main": "src/utils/reportEngine.js",
+  "scripts": {
+    "test": "jest --verbose --forceExit",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
