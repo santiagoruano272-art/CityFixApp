@@ -1,0 +1,3 @@
+Crear el archivo .env con las siguientes credneciales :
+SUPABASE_URL=https://qzgjyxtfeowpbhitnmld.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF6Z2p5eHRmZW93cGJoaXRubWxkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAxNTQ1NjIsImV4cCI6MjA5NTczMDU2Mn0.U2_i-ui2cwG7X-XGt4bH_-JQmE7urzO-zsF04u9SKgA
